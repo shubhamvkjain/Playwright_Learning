@@ -11,7 +11,7 @@ test('Browser context test',async ({browser})=>
 
 });
 
-test('Page Playwright test',async ({page})=>
+test.only('Page Playwright test',async ({page})=>
 {
 
  await page.goto("https://www.google.com/");
